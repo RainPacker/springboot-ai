@@ -66,7 +66,7 @@ public class CustomerSupportAssistant {
 
 						new LoggingAdvisor())
 
-				.defaultFunctions("getBookingDetails", "changeBooking", "cancelBooking","printBookings", "findMaterialDetailsRequestStringFunction") // FUNCTION CALLING
+				//.defaultFunctions("getBookingDetails", "changeBooking", "cancelBooking","printBookings", "findMaterialDetailsRequestStringFunction") // FUNCTION CALLING
 
 				.build();
 		// @formatter:on
